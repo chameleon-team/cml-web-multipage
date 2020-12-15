@@ -11,6 +11,7 @@
     "chameleon-runtime": "1.0.0",
     "chameleon-store": "1.0.0",
     "chameleon-ui-builtin": "1.0.0",
-    "cml-ui": "1.0.0"
+    "cml-ui": "1.0.0",
+    "lodash": "^4.17.20"
   }
 }

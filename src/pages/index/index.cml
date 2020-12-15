@@ -9,7 +9,7 @@
 </template>
 
 <script>
-
+import './test-noparse.js'
 class Index  {
   data = {
     title: "chameleon",

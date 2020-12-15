@@ -55,6 +55,9 @@ cml.config.merge({
 
 cml.utils.plugin('webpackConfig', function({ type, media, webpackConfig }, cb) {
   // cb函数用于设置修改后的配置
+  webpackConfig.module.noParse = function(content){
+    // return /test-noparse/.test(content) //测试工程化配置 noParse是否生效
+  }
   cb({
     type,
     media,
